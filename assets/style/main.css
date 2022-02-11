@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans+Display:wght@500&family=Staatliches&display=swap');
+
+/* Base */
+
+:root{
+    --roxoP: #770088;
+    --preto: rgb(33, 33, 33);
+    --roxoR: #4C1155; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(33, 33, 33, .90);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 25px;
+    font-size: large;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+.logo{
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+.cor1{
+    color: #E50000;
+}
+
+.cor2{
+    color: #FF8D00;
+}
+
+.cor3{
+    color: #FFEE00;
+}
+
+.cor4{
+    color: #028121;
+}
+
+.cor5{
+    color: #004CFF;
+}
+
+.cor6{
+    color: var(--roxoP);
+}
+
+/* filme principal */
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(/assets/img/pose-horizontal.jpg);
+
+    height: 450px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.titulo{
+    font-size: 50px;
+    margin-top: 15%;
+    font-family: 'Lora', serif;
+}
+
+.botao {
+    background-color: rgba(33, 33, 33, .50);
+    border:none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 3%;
+}
+
+.filme-principal .container{
+    width: 40%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
+}
+
+
+/* Trailers
+Pose                                - https://www.youtube.com/watch?v=e_gHbMfsgP4
+Jungens                             - https://www.youtube.com/watch?v=zje_wli5a0Y
+Me chame pelo seu nome              - https://www.youtube.com/watch?v=7yCwv8FjidU
+The death and the life of Martha    - https://www.youtube.com/watch?v=pADsuuPd79E
+Manhãs de Setembro                  - https://www.youtube.com/watch?v=NoXyFvRjem0
+Skins                               - https://www.youtube.com/watch?v=Lyq-EvsIC7o
+LGBT the experience                 - https://www.themoviedb.org/movie/568956-lgbt-experience?language=pt-BR
+Euphoria                            - https://www.youtube.com/watch?v=6XGnv7Zgbeg
+LGBT united                         - https://www.themoviedb.org/movie/510542-lgbt-united?language=pt-BR
+Poshida                             - https://www.youtube.com/watch?v=h1FhJMwoUKw
+RuPaul's                            - https://www.youtube.com/watch?v=8jf5IU7GmuI
+
+*/
